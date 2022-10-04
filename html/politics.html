@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+  <!-- UZUPEŁNIĆ POZYCJONOWANIE -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBTech</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/6f008fc73a.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="112">
+
+
+
+  <!-- NAVIGATION SECTION -->
+  <nav id="navbar" class="navbar navbar-expand-lg  position-fixed top-0 w-100 py-3">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html#"><img class="navbar-logo-presklej" src="/img/IBTech-logo.jpg"
+          alt="logo firmy IBTECH, czerwono szary napis IBTECH"></a>
+      <a class="navbar-brand" href="https://dltech.pl"><img class="navbar-logo-dltech" src="/img/logo_dltech.png"
+          alt="logo firmy presklej, czerwono biały napis presklej"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item item-1">
+            <a class="nav-link active" aria-current="page" href="/index.html#">Strona główna</a>
+          </li>
+          <li class="nav-item dropdown item-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Oferta
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+              <li><a class="dropdown-item" href="/html/glue.html">Klej przemysłowy</a></li>
+
+              <li><a class="dropdown-item" href="/html/components.html">Głowice klejowe</a></li>
+
+              <li><a class="dropdown-item" href="https://dltech.pl">Maszyny</a></li>
+            </ul>
+          </li>
+          <li class="nav-item item-3">
+            <a class="nav-link" href="/index.html#aboutus">O nas</a>
+          </li>
+          <li class="nav-item item-4">
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER HERO -->
+  <header id="header" class="header">
+    <div class="hero-image-politics">
+      <div class="hero-shadow"></div>
+      <div class="hero-text">
+        <div data-aos="fade-up" data-aos-delay="100">
+          <h1>Polityka prywatnosci</h1>
+          <p>Polityka prywatności opisuje zasady przetwarzania przez nas informacji na Twój temat, w tym danych
+            osobowych oraz ciasteczek, czyli tzw. cookies.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="product-descritption" class="product-descritption  py-5 position-relative">
+      <div class="red-triangle-left"></div>
+      <div class="first-red-triangle-right"></div>
+      <div class="container">
+        <div class="section-title">
+          <h2>Informacje</h2>
+          <div class="border-line"></div>
+        </div>
+        <div class="row px-3">
+
+          <div class="py-2">
+            <h3>1. Informacje ogólne</h3>
+            <ol>
+              <li>Niniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem ibtech.pl</li>
+              <li>Operatorem serwisu oraz Administratorem danych osobowych jest: Dltech sp. z o.o. Cmentarna 15,
+                Mysłowice 41-412</li>
+              <li>Adres kontaktowy poczty elektronicznej operatora: dltech@dltech.pl</li>
+              <li>Operator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w
+                Serwisie.</li>
+              <li>Serwis wykorzystuje dane osobowe w następujących celach:
+                <ul>
+                  <li>Realizacja zamówionych usług</li>
+                  <li>Prezentacja oferty lub informacji</li>
+                </ul>
+              </li>
+              <li>Serwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący
+                sposób:
+                <ul>
+                  <li>Poprzez dobrowolnie wprowadzone w formularzach dane, które zostają wprowadzone do systemów
+                    Operatora.</li>
+                  <li>Poprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka”).</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+
+          <div>
+            <h3>2. Wybrane metody ochrony danych stosowane przez Operatora</h3>
+            <ol>
+              <li>Miejsca logowania i wprowadzania danych osobowych są chronione w warstwie transmisji (certyfikat SSL).
+                Dzięki temu dane osobowe i dane logowania, wprowadzone na stronie, zostają zaszyfrowane w komputerze
+                użytkownika i mogą być odczytane jedynie na docelowym serwerze.</li>
+            </ol>
+          </div>
+
+          <div class="py-2">
+            <h3>3. Hosting</h3>
+            <ol>
+              <li>Serwis jest hostowany (technicznie utrzymywany) na serwerach operatora: webd.pl</li>
+            </ol>
+          </div>
+
+          <div class="py-2">
+            <h3>4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych</h3>
+            <ol>
+              <li>W niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom, jeśli
+                będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków ciążących na
+                Administratorze. Dotyczy to takich grup odbiorców:
+                <ul>
+                  <li>upoważnieni pracownicy i współpracownicy, którzy korzystają z danych w celu realizacji celu
+                    działania strony</li>
+                </ul>
+              </li>
+              <li>Twoje dane osobowe przetwarzane przez Administratora nie dłużej, niż jest to konieczne do wykonania
+                związanych z nimi czynności określonych osobnymi przepisami (np. o prowadzeniu rachunkowości). W
+                odniesieniu do danych marketingowych dane nie będą przetwarzane dłużej niż przez 3 lata.</li>
+              <li>Przysługuje Ci prawo żądania od Administratora:
+                <ul>
+                  <li>dostępu do danych osobowych Ciebie dotyczących,</li>
+                  <li>ich sprostowania,</li>
+                  <li>usunięcia,</li>
+                  <li>ograniczenia przetwarzania,</li>
+                  <li>oraz przenoszenia danych.</li>
+                </ul>
+              </li>
+              <li>Przysługuje Ci prawo do złożenia sprzeciwu w zakresie przetwarzania wskazanego w pkt 3.3 c) wobec
+                przetwarzania danych osobowych w celu wykonania prawnie uzasadnionych interesów realizowanych przez
+                Administratora, w tym profilowania, przy czym prawo sprzeciwu nie będzie mogło być wykonane w przypadku
+                istnienia ważnych prawnie uzasadnionych podstaw do przetwarzania, nadrzędnych wobec Ciebie interesów,
+                praw i wolności, w szczególności ustalenia, dochodzenia lub obrony roszczeń.</li>
+              <li>Na działania Administratora przysługuje skarga do Prezesa Urzędu Ochrony Danych Osobowych, ul. Stawki
+                2, 00-193 Warszawa.</li>
+              <li>Podanie danych osobowych jest dobrowolne, lecz niezbędne do obsługi Serwisu.</li>
+              <li>W stosunku do Ciebie mogą być podejmowane czynności polegające na zautomatyzowanym podejmowaniu
+                decyzji, w tym profilowaniu w celu świadczenia usług w ramach zawartej umowy oraz w celu prowadzenia
+                przez Administratora marketingu bezpośredniego.</li>
+              <li>Dane osobowe nie są przekazywane od krajów trzecich w rozumieniu przepisów o ochronie danych
+                osobowych. Oznacza to, że nie przesyłamy ich poza teren Unii Europejskiej.</li>
+            </ol>
+          </div>
+
+          <div>
+            <h3>5. Informacje w formularzach</h3>
+            <ol>
+              <li>Serwis zbiera informacje podane dobrowolnie przez użytkownika, w tym dane osobowe, o ile zostaną one
+                podane.</li>
+              <li>Serwis może zapisać informacje o parametrach połączenia (oznaczenie czasu, adres IP).</li>
+              <li>Serwis, w niektórych wypadkach, może zapisać informację ułatwiającą powiązanie danych w formularzu z
+                adresem e-mail użytkownika wypełniającego formularz. W takim wypadku adres e-mail użytkownika pojawia
+                się wewnątrz adresu url strony zawierającej formularz.</li>
+              <li>Dane podane w formularzu są przetwarzane w celu wynikającym z funkcji konkretnego formularza, np. w
+                celu dokonania procesu obsługi zgłoszenia serwisowego lub kontaktu handlowego, rejestracji usług itp.
+                Każdorazowo kontekst i opis formularza w czytelny sposób informuje, do czego on służy.</li>
+            </ol>
+          </div>
+          <div>
+            <h3>6. Logi Administratora</h3>
+            <ol>
+              <li>Informacje zachowaniu użytkowników w serwisie mogą podlegać logowaniu. Dane te są wykorzystywane w
+                celu administrowania serwisem.</li>
+            </ol>
+          </div>
+          <div>
+            <h3>7. Istotne techniki marketingowe</h3>
+            <ol>
+              <li>Operator stosuje analizę statystyczną ruchu na stronie, poprzez Google Analytics (Google Inc. z
+                siedzibą w USA). Operator nie przekazuje do operatora tej usługi danych osobowych, a jedynie
+                zanonimizowane informacje. Usługa bazuje na wykorzystaniu ciasteczek w urządzeniu końcowym użytkownika.
+                W zakresie informacji o preferencjach użytkownika gromadzonych przez sieć reklamową Google użytkownik
+                może przeglądać i edytować informacje wynikające z plików cookies przy pomocy narzędzia:
+                https://www.google.com/ads/preferences/</li>
+            </ol>
+          </div>
+          <div>
+            <h3>8. Informacja o plikach cookies</h3>
+            <ol>
+              <li>Serwis korzysta z plików cookies.</li>
+              <li>Pliki cookies (tzw. „ciasteczka”) stanowią dane informatyczne, w szczególności pliki tekstowe, które
+                przechowywane są w urządzeniu końcowym Użytkownika Serwisu i przeznaczone są do korzystania ze stron
+                internetowych Serwisu. Cookies zazwyczaj zawierają nazwę strony internetowej, z której pochodzą, czas
+                przechowywania ich na urządzeniu końcowym oraz unikalny numer.</li>
+              <li>Podmiotem zamieszczającym na urządzeniu końcowym Użytkownika Serwisu pliki cookies oraz uzyskującym do
+                nich dostęp jest operator Serwisu.</li>
+              <li>Pliki cookies wykorzystywane są w następujących celach:
+                <ul>
+                  <li>utrzymanie sesji użytkownika Serwisu (po zalogowaniu), dzięki której użytkownik nie musi na każdej
+                    podstronie Serwisu ponownie wpisywać loginu i hasła;</li>
+                  <li>realizacji celów określonych powyżej w części "Istotne techniki marketingowe";</li>
+                </ul>
+              </li>
+              <li>W ramach Serwisu stosowane są dwa zasadnicze rodzaje plików cookies: „sesyjne” (session cookies) oraz
+                „stałe” (persistent cookies). Cookies „sesyjne” są plikami tymczasowymi, które przechowywane są w
+                urządzeniu końcowym Użytkownika do czasu wylogowania, opuszczenia strony internetowej lub wyłączenia
+                oprogramowania (przeglądarki internetowej). „Stałe” pliki cookies przechowywane są w urządzeniu końcowym
+                Użytkownika przez czas określony w parametrach plików cookies lub do czasu ich usunięcia przez
+                Użytkownika.</li>
+              <li>Oprogramowanie do przeglądania stron internetowych (przeglądarka internetowa) zazwyczaj domyślnie
+                dopuszcza przechowywanie plików cookies w urządzeniu końcowym Użytkownika. Użytkownicy Serwisu mogą
+                dokonać zmiany ustawień w tym zakresie. Przeglądarka internetowa umożliwia usunięcie plików cookies.
+                Możliwe jest także automatyczne blokowanie plików cookies Szczegółowe informacje na ten temat zawiera
+                pomoc lub dokumentacja przeglądarki internetowej.</li>
+              <li>Ograniczenia stosowania plików cookies mogą wpłynąć na niektóre funkcjonalności dostępne na stronach
+                internetowych Serwisu.</li>
+              <li>Pliki cookies zamieszczane w urządzeniu końcowym Użytkownika Serwisu wykorzystywane mogą być również
+                przez współpracujące z operatorem Serwisu podmioty, w szczególności dotyczy to firm: Google (Google Inc.
+                z siedzibą w USA), Facebook (Facebook Inc. z siedzibą w USA), Twitter (Twitter Inc. z siedzibą w USA).
+              </li>
+            </ol>
+          </div>
+          <div>
+            <h3>9. Zarządzanie plikami cookies – jak w praktyce wyrażać i cofać zgodę?</h3>
+            <ol>
+              <li>Jeśli użytkownik nie chce otrzymywać plików cookies, może zmienić ustawienia przeglądarki.
+                Zastrzegamy, że wyłączenie obsługi plików cookies niezbędnych dla procesów uwierzytelniania,
+                bezpieczeństwa, utrzymania preferencji użytkownika może utrudnić, a w skrajnych przypadkach może
+                uniemożliwić korzystanie ze stron www</li>
+              <li>W celu zarządzania ustawienia cookies wybierz z listy poniżej przeglądarkę internetową, której używasz
+                i postępuj zgodnie z instrukcjami:
+                <ul>
+                  <li><a
+                      href="https://support.microsoft.com/pl-pl/microsoft-edge/wy%C5%9Bwietlanie-i-usuwanie-historii-przegl%C4%85darki-w-programie-microsoft-edge-00cf7943-a9e1-975a-a33d-ac10ce454ca4">Edge</a>
+                  </li>
+                  <li><a
+                      href="https://support.microsoft.com/pl-pl/topic/jak-usun%C4%85%C4%87-pliki-cookie-w-programie-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc">Internet
+                      Explorer</a></li>
+                  <li><a href="https://support.google.com/chrome/answer/95647?hl=pl">Chrome</a></li>
+                  <li><a href="https://support.apple.com/pl-pl/guide/safari/sfri11471/mac">Safari</a></li>
+                  <li><a
+                      href="https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop?redirectslug=W%C5%82%C4%85czanie+i+wy%C5%82%C4%85czanie+obs%C5%82ugi+ciasteczek&redirectlocale=pl">Firefox</a>
+                  </li>
+                  <li><a href="https://help.opera.com/pl/latest/web-preferences/#cookies">Opera</a></li>
+                </ul>
+                Urządzenia mobilne:
+                <ul>
+                  <li><a href="https://support.google.com/chrome/answer/95647?hl=pl">Android</a></li>
+                  <li><a href="https://support.apple.com/pl-pl/HT201265">Safari (iOS)</a></li>
+                  <li><a
+                      href="https://support.microsoft.com/pl-pl/windows/windows-phone-7-3ebc303c-59c0-d367-3995-f258b184fabb">Windows
+                      Phone</a></li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="red-triangle-left"></div>
+      <div class="first-red-triangle-right"></div>
+      <div class="container">
+        <div class="section-title pt-5">
+          <h2>Polityka bezpieczeństwa</h2>
+          <div class="border-line"></div>
+        </div>
+        <div class="row px-3">
+          <p>W ZAKRESIE OCHRONY DANYCH OSOBOWYCH
+
+ 
+
+            ZARZĄD DLTECH SPÓŁKA Z OGRANICZONĄ świadom wagi problemów związanych z ochroną prawa do prywatności, w tym w szczególności prawa osób fizycznych powierzających spółce swoje dane osobowe dla właściwej i skutecznej ochrony tych danych deklaruje:
+            
+            1.       Zamiar podejmowania wszystkich działań niezbędnych dla ochrony praw i usprawiedliwionych interesów jednostki związanych z  bezpieczeństwem danych osobowych.
+            
+            2.       Zamiar stałego podnoszenia świadomości oraz kwalifikacji osób przetwarzających dane osobowe w spółce w zakresie problematyki bezpieczeństwa tych danych.
+            
+            3.       Zamiar podejmowania w niezbędnym zakresie współpracy z instytucjami powołanymi do ochrony danych osobowych.
+            
+             
+            
+            ZARZĄD DLTECH SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ świadomy jest zagrożeń związanych z przetwarzaniem przez spółkę danych osobowych – a w tym, w szczególności,  zagrożeń wynikających z dynamicznego rozwoju metod i technik przetwarzania tych danych osobowych w systemach informatycznych oraz sieciach informatycznych/telekomunikacyjnych.
+            
+             
+            
+            Jednocześnie ZARZĄD DLTECH SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ zamierza doskonalić i rozwijać nowoczesne metody przetwarzania danych. Deklaruje, że spółka będzie stale doskonaliła i rozwijała organizacyjne, techniczne oraz informatyczne środki ochrony danych osobowych tak, aby skutecznie zapobiegać zagrożeniom.
+            
+             
+            
+            ZARZĄD DLTCEH SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ realizując postanowienia Rozporządzenia Parlamentu Europejskiego i Rady (UE)2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/45/WE – Dz. Urz. UE L 119, s. 1 (dalej RODO), ustawy z dnia 10 maja 2018 r. o ochronie danych osobowych (Dz. U. z 2018 r. poz. 1000) oraz wydane w oparciu o delegację ustawową przepisy rozporządzenia Ministra Spraw Wewnętrznych i Administracji z dnia 29 kwietnia 2004 r. w sprawie dokumentacji przetwarzania danych osobowych oraz warunków technicznych i organizacyjnych, jakim powinny odpowiadać urządzenia i systemy informacyjne służące do przetwarzania danych osobowych (Dz. U. Nr 100 poz. 1024) wprowadzając reguły oraz zasady pozwalające na zapewnienie ochrony danych osobowych w spółce oraz
+            
+             
+            
+            ZOBOWIĄZUJE SIĘ
+            
+             
+            
+            do bezwzględnego przestrzegania podanych w niniejszym opracowaniu reguł i zasad tworzących politykę bezpieczeństwa.
+            
+             
+            
+            Na podstawie aktualnie obowiązujących przepisów prawa ustala się następujące wytyczne polityki bezpieczeństwa danych osobowych przetwarzanych w spółce:
+            
+             
+            
+                    I.            POSTANOWIENIA OGÓLNE
+            
+             
+            
+            Art. 1
+            
+            Słownik kluczowych pojęć
+            
+            1.                  RODO – rozporządzenie Parlamentu Europejskiego i Rady (UE)2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/45/WE – Dz. Urz. UE L 119, zwane dalej Rozporządzeniem,
+            
+            2.                  Ustawa - ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych (Dz. U. z 2018 r. poz. 1000) oraz przepisy wykonawcze wydane na podstawie delegacji ustawowej, zwane dalej „ustawą”,
+            
+            3.                  Rozporządzenie – rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 29 kwietnia 2004 r. w sprawie dokumentacji przetwarzania danych osobowych oraz warunków technicznych i organizacyjnych, jakim powinny odpowiadać urządzenia i systemy informacyjne służące do przetwarzania danych osobowych (Dz. U. Nr 100 poz. 1024)
+            
+            4.                  Dane osobowe – wszelkie informacje dotyczące zidentyfikowanej lub możliwej do zidentyfikowania osoby fizycznej,
+            
+            5.                  Przetwarzanie danych – jakiekolwiek operacje wykonywane na danych osobowych, takie jak: zbieranie, utrwalanie, organizowanie, porządkowanie, przechowywanie, adaptowanie lub modyfikowanie, pobieranie, przeglądanie, wykorzystywanie, ujawnianie poprzez przesłanie, rozpowszechnianie lub innego rodzaju udostępnianie, dopasowywanie lub łączenie, ograniczanie, usuwanie lub niszczenie.
+            
+            6.                  Poufność danych – właściwość zapewniająca, że dane nie są udostępniane nieupoważnionym podmiotom,
+            
+            7.                  System informatyczny – rozumie się zespół współpracujących ze sobą urządzeń, programów, procedur przetwarzania informacji i narzędzi programowych zastosowanych w celu przetwarzania danych,
+            
+            8.                  Rozliczalność – właściwość zapewniającą, że działania podmiotu mogą być przypisane w sposób jednoznaczny tylko temu podmiotowi,
+            
+            9.                  Integralność danych – właściwość zapewniającą, że dane osobowe nie zostały zmienione lub zniszczone w sposób nieautoryzowany.
+            
+             
+            
+             
+            
+            Art. 2
+            
+            1.       Administratorem Danych osobowych jest DLTECH z ograniczoną odpowiedzialnością
+            
+            2.       Dane osobowe w Spółce przetwarzane są z poszanowaniem obowiązujących w tym zakresie przepisów prawa w siedzibie i biurze Spółki.
+            
+            3.       Dane osobowe w Spółce przetwarzane są wyłącznie w celu realizacji usług świadczonych przez Spółkę, dla zabezpieczenia prawidłowego toku ich realizacji.
+            
+             
+            
+            Art. 3
+            
+            Polityka bezpieczeństwa w zakresie ochrony danych osobowych w Spółce odnosi się do danych osobowych przetwarzanych w zbiorach danych:
+            
+            a)      tradycyjnych, w szczególności umowach, formularzach, kartotekach, wykazach i w innych zbiorach ewidencyjnych.
+            
+            b)     w systemach informatycznych, także w przypadku przetwarzania danych poza zbiorem danych osobowych.
+            
+            Art. 4
+            
+            1.                  Spółka dokłada szczególnej staranności w celu ochrony interesów osób, których dane dotyczą, a w szczególności zapewnia aby te dane były:
+            
+            a)      przetwarzane zgodnie z prawem,
+            
+            b)     zbierane dla oznaczonych, zgodnych z prawem celów i nie poddawane dalszemu przetwarzaniu niezgodnemu z tymi celami,
+            
+            c)      merytorycznie poprawne i adekwatne w stosunku do celów, w jakich są przetwarzane,
+            
+            d)     przechowywane w postaci umożliwiającej identyfikacje osób, których dotyczą, nie dłużej niż jest to niezbędne do osiągnięcia celu przetwarzania,
+            
+            2.                  Spółka przetwarza dane osobowe na podstawie:
+            
+            a)      wyrażonej zgody osoby zainteresowanej,
+            
+            b)     zawartej umowy w celu jej realizacji,
+            
+            c)      jeśli niezbędne jest do wypełnienia obowiązku prawnego ciążącego na administratorze.
+            
+             
+            
+            Art. 5
+            
+            1.                  Spółka realizując politykę bezpieczeństwa w zakresie ochrony danych osobowych stosuje odpowiednie środki informatyczne, techniczne i organizacyjne zapewniające ochronę przetwarzanych danych osobowych odpowiednią do zagrożeń oraz kategorii danych osobowych objętych ochroną, a w szczególności:
+            
+            a)      zabezpiecza dane przed ich udostępnieniem osobom nieupoważnionym,
+            
+            b)     zabraniem przez osobę nieuprawnioną,
+            
+            c)      przetwarzaniem z naruszeniem prawa,
+            
+            d)     zmianą, utratą, uszkodzeniem lub zniszczeniem.
+            
+            Art. 6
+            
+            1.                  Spółka sprawuje kontrolę i nadzór nad niszczeniem zbędnych danych osobowych i/lub ich zbiorów.
+            
+            2.                  Niszczenie zbędnych danych osobowych lub ich zbiorów polega w szczególności na:
+            
+            a)      trwałym, fizycznym zniszczeniu danych osobowych lub ich zbiorów wraz z nośnikami w stopniu uniemożliwiającym ich późniejsze odtworzenie przez osoby niepowołane przy zastosowaniu powszechnie dostępnych metod,
+            
+            b)     anonimizacji danych osobowych i/lub ich zbiorów polegającej na pozbawieniu danych osobowych i/lub ich zbiorów cech pozwalających na identyfikacje osób fizycznych, których anonimizowane dane dotyczą.
+            
+            3.                  Osoby przetwarzające dane osobowe w Spółce – mają obowiązek stosowania oddanych im do dyspozycji narzędzi i technik niszczenia zbędnych dokumentów danych osobowych lub ich zbiorów.
+            
+            4.                  Kontrola i nadzór nad niszczeniem zbędnych danych osobowych lub ich zbiorów może w szczególności polegać na wprowadzeniu odpowiednich procedur niszczenia danych, a także  zlecaniu niszczenia ich, wyspecjalizowanych podmiotom zewnętrznym, gwarantującym bezpieczeństwo niszczenia danych odpowiedni do rodzaju nośnika tych danych.
+            
+             
+            
+             
+            
+             
+            
+            II.                  UDOSTĘPNIANIE DANYCH OSOBOWYCH
+            
+            Art. 7
+            
+            1.                  Dane osobowe w Spółce są przetwarzane wyłącznie przez osoby upoważnione.
+            
+            2.                  Zmiany dotyczące użytkownika, takie jak rozwiązywanie umowy o pracę lub utrata upoważnienia, są przesłanką do natychmiastowego cofnięcia upoważnienia do przetwarzania danych osobowych, wyrejestrowania użytkownika z systemu informatycznego oraz unieważnienia hasła
+            
+             
+            
+            Art. 8
+            
+            1.                  Spółka zapewnia dostęp do przetwarzanych danych osobowych osobom fizycznym będącym dysponentami tych danych osobowych.
+            
+            2.                  Dysponentami danych osobowych są osoby są osoby, które powierzyły swoje dane osobowe Spółce w związku z realizacją procesu realizacji usług.
+            
+             
+            
+            Art. 9
+            
+            1.                  Dostęp do danych osobowych i ich przetwarzanie bez odrębnego upoważnienia administratora danych osobowych lub upoważnionej przezeń osoby może mieć miejsce wyłącznie w przypadku działań podmiotów upoważnionych na mocy odpowiednich przepisów prawa do dostępu  i przetwarzania danych określonej kategorii.
+            
+            2.                  W szczególności dostęp do danych osobowych na wskazanej w art. 10 ust. 1 zasadzie mogą mieć: Państwowa Inspekcja Pracy, Zakład Ubezpieczeń Społecznych, organy skarbowe, Policja, Agencja Bezpieczeństwa Wewnętrznego, Wojskowe Służby Informacyjne, sądy powszechne, Najwyższa Izba Kontroli oraz inne upoważnione przez przepisy prawa podmioty, organy, działające w granicach przyznawanych im uprawnień – wszystkie ww. po okazaniu dokumentów potwierdzających te uprawnienia.  
+            
+             
+            
+             
+            
+             
+            
+             
+            
+             
+            
+            III.            OSOBY PRZETWARZAJĄCE DANE OSOBOWE
+            
+            Art. 10
+            
+            1.                  Odpowiedzialnymi za przetwarzanie danych osobowych oraz ich ochronę zgodnie z postanowieniami RODO, Ustawy, Polityki Bezpieczeństwa są Administrator Danych Osobowych oraz wszyscy użytkownicy.
+            
+            2.                  Administrator Danych Osobowych prowadzi ewidencję osób upoważnionych do przetwarzania danych osobowych.
+            
+             
+            
+            Art. 11
+            
+            1.                  Administrator Danych Osobowych zobowiązuje się do bieżącego zapoznawania się z powszechnie obowiązującymi przepisami prawa, uregulowaniami wewnętrznymi, a także technikami i środkami ochrony tych danych stosowanymi w Spółce, w szczególności poprzez udział w szkoleniach wewnętrznych.
+            
+             
+            
+            Art. 12
+            
+            1.                  Administrator Danych Osobowych deklaruje znajomości zakresu informacji objętych tajemnicą w związku z wykonywaną przez siebie pracą. W szczególności jest świadom powinności zachowania w tajemnicy danych osobowych oraz sposobów ich zabezpieczenia stosowanych w Spółce.
+            
+             
+            
+            IV.            PRAWA OSÓB, KTÓRYCH DANE SĄ PRZETWARZANE PRZEZ SPÓŁKĘ
+            
+             
+            
+            Art. 13
+            
+            1.                  Spółka gwarantuje osobom fizycznym, których dane osobowe są przetwarzane w związku z realizacją jego zadań, realizacje uprawnień gwarantowanych im przez obowiązujące przepisy prawa.
+            
+            2.                  W szczególności każdej osobie fizycznej, której dane osobowe są przetwarzane z realizacją usług, przysługuje prawo do uzyskania informacji o zakresie jej uprawnień związanych z ochroną danych osobowych, a także prawo do kontroli przetwarzania danych, które jej dotyczą, zawartych w zbiorach na zasadach określonych w RODO.
+            
+            3.                  Osoby fizyczne, których dane osobowe są przetwarzane w związku z realizacją usług, uzyskują informacje o przysługujących im prawach.
+            
+             
+            
+             
+            
+               V.BUDYNKI, POMIESZCZENIA I CZĘŚCI POMIESZCZEŃ, TWORZĄCE OBSZAR SPÓŁKI, W KTÓRYM PRZETWARZANE SĄ DANE OSOBOWE.
+            
+             
+            
+            Art. 14
+            
+            1.                  Zarząd Spółki wyznacza pomieszczenia i części pomieszczeń, tworzące obszar, w którym przetwarzane są dane osobowe pod adresem ul. Cmentarna 15, 41-400 Mysłowice w pomieszczeniach użytkowanych przez Spółkę.
+            
+            2.                  W przypadku, gdy w pomieszczeniu znajduje się część ogólnodostępna oraz część, w której przetwarzane są dane osobowe – część, w której są przetwarzane dane osobowe jest wyraźnie oddzielona od ogólnodostępnej.
+            
+            3.                  Wydzielenie części pomieszczenia, w której przetwarzane są dane osobowe może być w szczególności dokonane poprzez montaż barierek, lad lub odpowiednie ustawienie mebli biurowych uniemożliwiające lub co najmniej ograniczające niekontrolowany dostęp osób niepowołanych do zbiorów danych osobowych przetwarzanych w danym pomieszczeniu.
+            
+            4.                  Pod szczególną ochroną przed niepowołanym dostępem do danych osobowych urządzenia wchodzące w skład systemu informatycznego Spółki. W szczególności stacje robocze (poszczególne komputery) wchodzące w skład tego systemu, są umiejscawiane w sposób uniemożliwiający osobom nieuprawnionym, bezpośredni i niekontrolowany dostęp do ekranów oraz urządzeń służących do przetwarzania, a zwłaszcza kopiowania danych.
+            
+            5.                  W pomieszczeniach i częściach pomieszczeń, tworzących obszar Spółki, w którym przetwarzane są dane osobowe mają prawo przebywać wyłączenie osoby upoważnione do przetwarzania danych osobowych.
+            
+            6.                  Osoby nieupoważnione do przetwarzania danych osobowych określonej kategorii wykonujące inne czynności nie mające związku z dostępem do tych danych mogą przebywać w pomieszczeniach i częściach pomieszczeń tworzących obszar Spółki, w którym przetwarzane są dane osobowe – wyłącznie w obecności administratora danych osobowych, upoważnionych osób lub – w razie ich nieobecności – na podstawie upoważnienia wydanego przez administratora.
+            
+                     Art. 15
+            
+            1.                  Całkowite opuszczenie pomieszczenia, w którym przetwarzane są dane osobowe, musi wiązać się z zastosowaniem dostępnych środków zabezpieczających to pomieszczenie przed wejściem osób niepowołanych.
+            
+            2.                  Opuszczanie pomieszczenia, w którym przetwarzane są dane osobowe, musi wiązać się z zastosowaniem dostępnych środków zabezpieczających używane aktualnie zbiory danych osobowych. W szczególności w razie planowanej, choćby chwilowej, nieobecności osoby upoważnionej do przetwarzania tych danych osobowych, zobowiązanym się jest aby umieścić zbiory występujące w formach tradycyjnych w odpowiednio zabezpieczonym miejscu ich przechowywania oraz dokonać niezbędnych operacji w systemie informatycznym uniemożliwiającym dostęp do danych osobowych osobom niepowołanym.
+            
+            3.                  W przypadku użytkowania systemów informatycznych poza obszarem/pomieszczeniami Spółki (komputery przenośne) postanowienia dotyczące ochrony danych osobowych stosuje się analogicznie.
+            
+             
+            
+            VI.            ZIORY DANYCH OSOBOWYCH TWORZONE W SPÓŁCE
+            
+            Art. 16
+            
+            Administrator zabrania tworzenia zbiorów danych osobowych, a także gromadzenia w zbiorach lub poza nimi kategorii danych osobowych innych niż niezbędne dla realizacji usług świadczonych przez Spółkę.
+            
+            VII.ZABEZPIECZENIE SYSTEMÓW INFORMATYCZNYCH
+            
+             
+            
+                  Art. 17
+            
+            1.                  Podstawowymi celami zabezpieczeń systemów informatycznych służących do przetwarzania danych osobowych jest zapewnienie jak najwyższego poziomu bezpieczeństwa przetwarzanych danych osobowych w systemach informatycznych.
+            
+            2.                  Za priorytet uznano zagwarantowanie zgromadzonym danym osobowym, przez cały okres ich przetwarzania w systemach, charakteru poufnego wraz z zachowaniem ich integralności i rozliczalności.
+            
+             
+            
+            Art. 18
+            
+            1.              Użytkownikom zabrania się wprowadzania zmian do oprogramowania, sprzętu informatycznego poprzez jego samodzielne konfigurowanie i wyposażanie.
+            
+            2.              Użytkownikom zabrania się umożliwiania stronom trzecim uzyskiwania nieupoważnionego dostępu do systemów informatycznych.
+            
+            3.              Użytkownikom nie wolno korzystać  z systemów informatycznych dla celów innych niż związane z wykonywaniem obowiązków służbowych.
+            
+            4.              Użytkownikom nie wolno podejmować prób testowania, modyfikacji i naruszenia zabezpieczeń systemów informatycznych lub jakichkolwiek działań noszących takie znamiona.
+            
+            5.              Wszystkie aplikacje sieciowe, współdzielone zasoby użytkowe muszą być ulokowane na przeznaczonych do tego celu serwerach.
+            
+            6.              Nieautoryzowane podłączenie własnego lub strony trzeciej urządzenia teleinformatycznego do systemu informatycznego Spółki jest zabronione.
+            
+             </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact py-5">
+      <div class="red-triangle-right"></div>
+      <div class="section-hero"></div>
+      <div class="section-shadow"></div>
+      <div class="container text-center">
+        <div class="section-title">
+          <h2>Kontakt</h2>
+          <div class="border-line"></div>
+        </div>
+        <div class="row mx-3">
+          <div class="col-sm-12 col-md-6">
+            <h3>Skontaktuj się z nami!</h3>
+            <div class="contact-box d-flex align-items-center justify-content-center">
+              <i class="fa-solid fa-location-dot mx-3"></i>
+              <div class="box-text text-start">
+                <h5>Adres</h5>
+                <p>Cmentarna 15,</p>
+                <p>41-412 Mysłowice</p>
+              </div>
+            </div>
+
+            <div class="contact-box d-flex align-items-center justify-content-center">
+              <i class="fa fa-mobile-button mx-3"></i>
+              <div class="box-text text-start">
+                <h5>Telefon</h5>
+                <p>+48 501-866-723</p>
+              </div>
+            </div>
+            <div class="contact-box d-flex align-items-center justify-content-center">
+              <i class="fa fa-envelope mx-3"></i>
+              <div class="box-text text-start">
+                <h5>Email</h5>
+                <p>dltech@dltech.pl</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 mb-3">
+            <h3>Odwiedź nas!</h3>
+            <div class="contact-box text-center">
+              <!-- <a style="text-decoration: none; color: white;" href="https://dltech.pl">
+                <div class="box-text">
+                  <h5>Dltech.pl</h5>
+                  <p></p>
+                </div>
+                <div class="box-img my-2">
+                  <img src="/img/DLTECH.jpg" alt="niebieskie logo firmy dltech">
+                  </img>
+                </div>
+              </a> -->
+              <iframe class="contact-map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10215.538306402352!2d19.1753065!3d50.2006884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa16b09934abe830c!2sDLTech%20sp.%20z%20o.%20o.!5e0!3m2!1spl!2spl!4v1629118786849!5m2!1spl!2spl"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-light py-4 text-center">
+    <p class="mb-0"> &copy; 2022 | <span class="presklej-color">IBTech</span> | dltech@dltech.pl | <a
+        href="/html/politics.html" style="text-decoration: none; color: #fff;">Polityka prywatności</a></p>
+  </footer>
+
+
+
+  <script src="/js/presklej.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+  </script>
+</body>
+
+</html>
